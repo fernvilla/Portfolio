@@ -97,11 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.navbar {
+.navbar *{
     background: black;
 }
 
+.jumbotron {
+    height: 600px;
+    background-image: url('../img/bg.jpg');
+    text-align: center;
+}
 
+.jumbotron h1 {
+    color: #FFF;
+}
 
 
 
