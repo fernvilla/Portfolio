@@ -97,25 +97,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.navbar *{
-    background: black;
+body *{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .jumbotron {
-    height: 600px;
+    height: 400px;
     background-image: url('../img/bg.jpg');
-    text-align: center;
 }
 
-.jumbotron h1 {
+main {
     color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
 }
 
+.author {
+    color: #c9a640;
+}
 
+#about-me {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 15px;
+    background: #367894;
+    color: #FFF;
+    width: 95%;
+    font-size: 16px;
+}
 
-
-
-
+#heading {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #000;
+    color: #FFF;
+    width: 30%;
+    font-size: 18px;
+}
 
 
 
