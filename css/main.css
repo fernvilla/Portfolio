@@ -130,7 +130,7 @@ body *{
 }
 
 #about-me {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
     padding: 0 50px 40px 50px;
     text-shadow: 1px 1px 1px #000;
@@ -141,14 +141,14 @@ body *{
 }
 
 #portfolio {
-    margin: 10px auto;
+    margin-bottom: 30px;
     width: 95%;
     border-top: 1px solid #000;
 }
 
 #contact {
     text-align: center;
-    background-color: #50597c;
+    background-color: #b3b3b3;
     width: 95%;
 }
 
@@ -166,7 +166,6 @@ body *{
     max-width: 100% !important;
     height: auto;
 }
-
 
 #contact ul li{
     display: inline;
