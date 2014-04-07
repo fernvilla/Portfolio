@@ -102,6 +102,14 @@ body *{
     padding: 0;
 }
 
+* {
+  border-radius: 0 !important;
+}
+
+.navbar.navbar-inverse {
+    background-color: #000;
+}
+
 .jumbotron {
     height: 600px;
     background-image: url('../img/bg.jpg');
@@ -132,24 +140,25 @@ body *{
 #about-me {
     margin-bottom: 30px;
     text-align: center;
-    padding: 0 50px 40px 50px;
+    padding: 0 50px 10px 50px;
     text-shadow: 1px 1px 1px #000;
     background: #367894;
     color: #FFF;
-    width: 95%;
+    width: 90%;
     font-size: 16px;
 }
 
 #portfolio {
     margin-bottom: 30px;
-    width: 95%;
+    width: 90%;
     border-top: 1px solid #000;
 }
 
 #contact {
     text-align: center;
-    background-color: #b3b3b3;
-    width: 95%;
+    background-color: #4c4c4c;
+    width: 100%;
+    height: 170px;
 }
 
 #image-mobile img {
@@ -157,6 +166,7 @@ body *{
     height: auto;
     width: 180px;
     margin: 10px 0;
+    border: 3px solid #FFF;
 }
 
 #image img {
@@ -165,6 +175,7 @@ body *{
     width: 550px;
     max-width: 100% !important;
     height: auto;
+    border: 3px solid #FFF;
 }
 
 #contact ul li{
