@@ -64,9 +64,10 @@
         </div>
         <div class="col-md-4">
           <h3>Skills</h3>
-          <p>Front-End: HTML5, CSS3, JavaScript, JQuery, AngularJS, Bootstrap, Foundation</p>
+          <p>Front-End: HTML5, CSS3, JavaScript, JQuery, AngularJS, Bootstrap, Foundation, SASS</p>
           <p>Back-End: Ruby, Rails, Node.js, Express</p>
           <p>Databases: MongoDB, PostgreSQL, Firebase</p>
+          <p>Testing: TDD/BDD, Rspec, Mocha</p>
           <p>Tools: Git/GitHub, Pivotal Tracker, Heroku</p>
         </div>
         <div class="col-md-4">
@@ -76,24 +77,37 @@
       </div>
     </div>
 
-    <div class="container" id="portfolio">
+    <div class="container-fluid" id="portfolio">
       <div class="row" id="heading">
         Portfolio
       </div> 
-      <div class="row">
+      <div class="row projects">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h4>PROJECT: Sports News Los Angeles <span style="color:#408000">(In Progress)</span></h4>
-          <h5>DESCRIPTION: News aggregator that automatically pulls from almost 100 feeds containing stories strictly regarding Los Angeles sports teams. Feeds are saved to the database before being rendered to the user. In the end, users will be able to visit each team's page and view all the latest news stories. They will also be able to vote for stories in an effort to display the most interesting ones, as well as the ability to save favorite stories in a dashboard for future reading or to share them with friends. Site will also be mobile browser friendly. Potential additions: Fan gear, game tickets, and nearby sports bars pages.<br> <br>
-          GITHUB: <a href="https://github.com/fernvilla/SportsNewsLA">https://github.com/fernvilla/SportsNewsLA</a> <br>
-          HEROKU: <a href="http://sportsnewsla.herokuapp.com">http://sportsnewsla.herokuapp.com</a> <br><br>
-          Created using Rails, AngularJS, PostgreSQL, and Bootstrap. <br><br>
+          <h4>PROJECT: Sports News Los Angeles- Version 2.0 <span style="color:#408000">(In Progress)</span></h4>
+          <h5>DESCRIPTION: Rebuilding previous project- eliminating the use of Angular JS, adding testing, improving layout/styling, more news feed, and notification of which stories are new. As before, will automatically pull from over 150 news feeds, containing stories strictly regarding Los Angeles sports teams, every hour. Feeds are still saved to database before being rendered to the user to minimize needing to access RSS feed links too often. Users can login with their social accounts (Facebook, Twitter, Google LinkedIn) to bookmark stories for later readiing. As before, users will be able to visit each team's page and view all the latest news stories and social feeds (Twitter, Instagram, Tumblr, Youtube). Mobile-friendly. This site will be made live to the public. <br> <br>
+          GITHUB: <a href="http://github.com/fernvilla/SportsNewsLAv2.0">http://github.com/fernvilla/SportsNewsLAv2.0</a> <br>
+          WEBSITE: <a href="http://sportsnewsla.com">http://sportsnewsla.com</a> <br><br>
+          Created using Rails, PostgreSQL, RSpec, Bootstrap, Twitter/Instagram/Tumblr/Youtube API <br><br>
           </h5>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6" id="image">
-        <img src="img/notyet.png" alt="">
+        <a href="http://sportsnewsla.com"><img src="img/snla_new.jpg" alt="Sports News Los Angeles" title="Sports News Los Angeles"></a>
         </div>
       </div>
-      <div class="row">
+      <div class="row projects">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h4>PROJECT: Sports News Los Angeles <span style="color:#408000"></span></h4>
+          <h5>DESCRIPTION: News aggregator that automatically pulls from over 100 feeds containing stories strictly regarding Los Angeles sports teams. Feeds are saved to a PostgreSQL database before being rendered to the user via AngularJS. Users can login with their social accounts (Facebook, Twitter, Google LinkedIn). In the end, users will be able to visit each team's page and view all the latest news stories and social feeds (Twitter, Instagram, Tumblr, Youtube). <br> <br>
+          GITHUB: <a href="https://github.com/fernvilla/SportsNewsLA">https://github.com/fernvilla/SportsNewsLA</a> <br>
+          HEROKU: <a href="http://sportsnewsla.herokuapp.com">http://sportsnewsla.herokuapp.com</a> <br><br>
+          Created using Rails, AngularJS, PostgreSQL, Bootstrap, Twitter API, Instagram API <br><br>
+          </h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6" id="image">
+        <a href="http://sportsnewsla.herokuapp.com"><img src="img/snla.jpg" alt="Sports News Los Angeles" title="Sports News Los Angeles"></a>
+        </div>
+      </div>
+      <div class="row projects">
         <div class="col-xs-12 col-sm-6 col-md-6">
           <h4>PROJECT: Gloss</h4>
           <h5>DESCRIPTION: Content delivery system specifically designed for mobile web browsers. Users can swipe up or down to switch categories and left or right to switch between items within the same category. Users can 'like' items, which are live-updated to all users on the site using Socket.io. Tapping on the screen brings up a radar of nearby users and items. This gamifies the app by having users swipe between items to find ones that contain random prizes once reached. Users can also login to save favorites, which link directly out to the item's external website.<br> <br>
@@ -104,12 +118,11 @@
           </h5>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6" id="image-mobile">
-          <a href="http://cracked.herokuapp.com"><img class="mobile" src="img/gloss1.png" alt="Item View" title="Item View"></a>
-          <a href="http://cracked.herokuapp.com"><img class="mobile" src="img/gloss2.png" alt="Radar View" title="Radar View"></a>
-          <a href="http://cracked.herokuapp.com"><img class="mobile" src="img/gloss3.png" alt="Favorites List View" title="Favorites List View"></a>
+          <a href="http://cracked.herokuapp.com"><img src="img/gloss.png" alt="Gloss" title="Gloss"></a>
+          </a>
         </div>
       </div>
-      <div class="row">
+      <div class="row projects">
         <div class="ccol-xs-12 col-sm-6 col-md-6">
           <h4>PROJECT: DevJobs.Map</h4>
           <h5>DESCRIPTION: Google Map showing developer job listings in Los Angeles based on company's latitude and longitude. Job seekers can filter job postings based on job type (Front-end, Back-end, Full-Stack) or experience level (Senior, Junior, Internship). Employers can log in (via sign up or using Twitter/LinkedIn authentication) to post a job that is automatically displayed on the map through geocoding of their company address. Employer also has access to their own dashboard to manage posted jobs. Indeed.com API can also pulled to populate the map with even more developer jobs. Heat map can be toggled to view locations with the most job postings.<br> <br>
@@ -123,7 +136,7 @@
           <a href="http://devjobs-map.herokuapp.com"><img src="img/map.jpg" alt="DevJobs.Map" title="DevJobs.Map"></a>
         </div>
       </div>
-      <div class="row">
+      <div class="row projects">
         <div class="col-xs-12 col-sm-6 col-md-6">
           <h4>PROJECT: Gym Time</h4>
           <h5>DESCRIPTION: Workout calendar will full CRUD functionality. Allows the user to create single workouts which are displayed automatically on their own calendar. Exercises can be added to own database (with external links and ability to embed optional YouTube video) which will then show as options when future workouts are created. Training progress can also be tracked by creating journal entries. Google Maps API used to map nearby gyms based on user's geolocation.<br> <br>
@@ -136,7 +149,7 @@
           <a href="http://gym-time.herokuapp.com"><img src="img/gym.jpg" alt="Gym Time" title="Gym Time"></a>
         </div>
       </div>
-      <div class="row">
+      <div class="row projects">
         <div class="col-xs-12 col-sm-6 col-md-6">
           <h4>PROJECT: Tic Tac Toe</h4>
           <h5>DESCRIPTION: Game written in AngularJS, using a Firebase data back-end and deployed on Heroku.com. Fully functional game board (win logic, game restart, score counter/reset) that includes a live chat app, a game board toggle, and a game outcome log. Code can be altered for play to be across multiple browsers only. <br> <br>
