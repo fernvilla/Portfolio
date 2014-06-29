@@ -100,7 +100,6 @@ ul{
 .description{
   background-color: rgba(0,0,0,.75);
   color: #fff;
-  padding: 5px 15px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #000;
   font-size: 12px;
@@ -123,4 +122,33 @@ ul{
   background-size: cover;
   padding-bottom: 50px;
   text-shadow: 1px 1px 1px #000;
+}
+
+@media (max-width: 767px){
+  #intro-container{
+    background: url(images/santamonica.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+
+  #portfolio{
+    background: url(images/labg.jpg);
+    background-size:fit;
+    background-position:center;
+  }
+
+  #contact{
+    background: url(images/blackbg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+
+  #skills{
+    background: url(images/graybg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
 }
