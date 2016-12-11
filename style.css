@@ -4,7 +4,7 @@ html, body{
 }
 
 .navbar-inverse{
-  background-color: #000;  
+  background-color: rgba(0,0,0,.5);  
   margin: 0;
   border-radius: 0;
 }
@@ -60,7 +60,7 @@ a:hover{
   margin: 0 auto;
   padding: 10px;
   margin-bottom: 25px;
-  box-shadow: 3px 3px 5px #000;
+  box-shadow: 2px 2px 5px #000;
   border: 2px solid #333333;
   border-top: 0;
 }
@@ -98,7 +98,7 @@ ul{
 }
 
 .description{
-  background-color: rgba(0,0,0,.75);
+  background-color: rgba(102,102,102,.6);
   color: #fff;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #000;
@@ -109,7 +109,6 @@ ul{
   height: auto;
   width: 100%;
   box-shadow: 1px 1px 1px #000;
-  border: 1px solid #cccccc;
 }
 
 #contact{
