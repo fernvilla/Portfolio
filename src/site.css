@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro-container {
+  background: url(/images/santamonica.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: table;
+}
+
+.intro {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #b3b3b3;
+}
+
+#skills {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  background: url(/images/graybg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  width: 220px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 5px #000;
+  border: 2px solid #333333;
+  border-top: 0;
+}
+
+.skills-box {
+  margin: 10px 0 25px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio {
+  padding-bottom: 20px;
+  background-color: #e6e6e6;
+  background: url(/images/labg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-overlay {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.project {
+  margin: 30px;
+}
+
+.project a {
+  color: #6aa6d5;
+}
+
+.description {
+  background-color: rgba(102, 102, 102, .6);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+  box-shadow: 1px 1px 1px #000;
+}
+
+#contact {
+  color: #fff;
+  text-align: center;
+  background: url(/images/blackbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+@media (max-width: 767px) {
+  #intro-container {
+    background: url(/images/santamonica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #portfolio {
+    background: url(/images/labg.jpg);
+    background-size: fit;
+    background-position: center;
+  }
+
+  #contact {
+    background: url(/images/blackbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #skills {
+    background: url(/images/graybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
