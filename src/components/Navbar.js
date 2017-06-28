@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+    <nav className="navbar navbar-toggleable-md">
       <button
         className="navbar-toggler navbar-toggler-right"
         type="button"
@@ -17,13 +17,19 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#skills">Skills</a>
+            <a className="nav-link" href="#skills">
+              Skills
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#portfolio">Portfolio</a>
+            <a className="nav-link" href="#portfolio">
+              Portfolio
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <a className="nav-link" href="#">
+              Contact
+            </a>
           </li>
           <li className="nav-item">
             <a className="nav-link disabled" href="FVDevResume.pdf">

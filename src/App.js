@@ -9,11 +9,9 @@ class App extends Component {
 
         <div className="intro-container">
           <div className="intro">
-
             <h1>Web Development</h1>
             <h4>By Fernando Villasenor</h4>
           </div>
-
         </div>
 
         <div id="skills">
@@ -30,14 +28,12 @@ class App extends Component {
                 <h3>Front-End</h3>
                 <div className="col">
                   <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>SASS/LESS</li>
-                    <li>JavaScript</li>
+                    <li>Html</li>
+                    <li>Css/Scss/Less</li>
+                    <li>Javascript</li>
                     <li>JQuery</li>
-                    <li>AngularJS</li>
+                    <li>ReactJS/Redux</li>
                     <li>Bootstrap</li>
-                    <li>Foundation</li>
                   </ul>
                 </div>
               </div>
@@ -47,9 +43,38 @@ class App extends Component {
                 <h3>Back End</h3>
                 <div className="col">
                   <ul>
-                    <li>Ruby/Rails</li>
+                    <li>Node/Express</li>
+                    <li>.Net MVC</li>
+                    <li>Ruby on Rails</li>
                     <li>Django/Python</li>
-                    <li>Node.js</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-sm-4 skills-box">
+                <i className="fa fa-github fa-5x" />
+                <h3>Tools</h3>
+                <div className="col">
+                  <ul>
+                    <li>Git/Github</li>
+                    <li>Webpack</li>
+                    <li>NPM/Yarn</li>
+                    <li>Heroku</li>
+                    <li>Pivotal Tracker</li>
+                    <li>Jira</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-xs-12 col-sm-4 skills-box">
+                <i className="fa fa-database fa-5x" />
+                <h3>Databases</h3>
+                <div className="col">
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
               </div>
@@ -64,41 +89,15 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
-
-            <div className="row">
-              <div className="col-xs-12 col-sm-4 skills-box">
-                <i className="fa fa-database fa-5x" />
-                <h3>Databases</h3>
-                <div className="col">
-                  <ul>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                    <li>Firebase</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="col-xs-12 col-sm-4 skills-box">
-                <i className="fa fa-github fa-5x" />
-                <h3>Tools</h3>
-                <div className="col">
-                  <ul>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>Heroku</li>
-                    <li>Pivotal Tracker</li>
-                  </ul>
-                </div>
-              </div>
 
               <div className="col-xs-12 col-sm-4 skills-box">
                 <i className="fa fa-check-square-o fa-5x" />
                 <h3>Testing</h3>
                 <div className="col">
                   <ul>
-                    <li>RSpec</li>
                     <li>Mocha</li>
+                    <li>Enzyme</li>
+                    <li>Chai</li>
                   </ul>
                 </div>
               </div>
@@ -111,6 +110,69 @@ class App extends Component {
             <div className="row">
               <div className="col">
                 <h3 id="header">Portfolio</h3>
+              </div>
+            </div>
+
+            <div className="row justify-content-md-center project">
+              <div className="col-xs-12 col-md-5 col-md-offset-1">
+                <div className="description">
+                  <h4>Panjo</h4>
+                  <p />
+                  <p>
+                    <br />
+                    Website: <a href="http://panjo.com">
+                      http://panjo.com
+                    </a>{" "}
+                    <br />
+                    .Net MVC, React, Redux, Webpack, SCSS
+                    <br />
+                    <br />
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-md-5 image-container">
+                <a href="http://panjo.com">
+                  <img src="/images/panjo.jpg" />
+                </a>
+              </div>
+            </div>
+
+            <div className="row justify-content-md-center project">
+              <div className="col-xs-12 col-md-5 col-md-offset-1">
+                <div className="description">
+                  <h4>Sports News Los Angeles 2.0 (In progress)</h4>
+                  <p>
+                    Rebuilding previous project As before, will automatically
+                    pull from over 150 news feeds, containing stories strictly
+                    regarding Los Angeles sports teams, every hour. Feeds are
+                    still saved to database before being rendered to the user to
+                    minimize needing to access RSS feed links too often.
+                    Mobile-friendly. This site will be made live to the public.
+                  </p>
+                  <p>
+                    Source Code:{" "}
+                    <a href="https://github.com/fernvilla/SportsNewsLA">
+                      https://github.com/fernvilla/SportsNewsLA
+                    </a>{" "}
+                    <br />
+                    Website:{" "}
+                    <a href="http://sportsnewsla.com">
+                      http://sportsnewsla.com
+                    </a>{" "}
+                    <br />
+                    Created using Node, Express, React, Redux, Mongoose,
+                    React-Router, Bootstrap 4, SCSS
+                    <br />
+                    <br />
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-xs-12 col-md-5 image-container">
+                <a href="http://sportsnewsla.com">
+                  <img src="/images/snla.jpg" />
+                </a>
               </div>
             </div>
 
@@ -143,13 +205,11 @@ class App extends Component {
             <div className="row justify-content-md-center project">
               <div className="col-xs-12 col-md-5 col-md-offset-1">
                 <div className="description">
-
                   <h4>truBrain</h4>
                   <p>
                     Maintenance, issue fixing, and enhancements of the
                     company&#39;s website which is built with Django/Python on
-                    top
-                    of a PostgreSQL database.
+                    top of a PostgreSQL database.
                   </p>
                   <p>
                     Converted the entire website into a fully responsive site
@@ -183,66 +243,16 @@ class App extends Component {
             <div className="row justify-content-md-center project">
               <div className="col-xs-12 col-md-5 col-md-offset-1">
                 <div className="description">
-
-                  <h4>Sports News Los Angeles 2.0 (In progress)</h4>
-                  <p>
-                    Rebuilding previous project- eliminating the use of Angular
-                    JS, adding testing, improving layout/styling, more news
-                    feed,
-                    and notification of which stories are new. As before, will
-                    automatically pull from over 150 news feeds, containing
-                    stories strictly regarding Los Angeles sports teams, every
-                    hour. Feeds are still saved to database before being
-                    rendered
-                    to the user to minimize needing to access RSS feed links too
-                    often. Users can login with their social accounts (Facebook,
-                    Twitter, Google LinkedIn) to bookmark stories for later
-                    readiing. As before, users will be able to visit each team's
-                    page and view all the latest news stories and social feeds
-                    (Twitter, Instagram, Tumblr, Youtube). Mobile-friendly. This
-                    site will be made live to the public.
-                  </p>
-                  <p>
-                    Source Code:{" "}
-                    <a href="https://github.com/fernvilla/SNLAv2.0">
-                      https://github.com/fernvilla/SNLAv2.0
-                    </a>{" "}
-                    <br />
-                    Website:{" "}
-                    <a href="http://sportsnewsla.com">
-                      http://sportsnewsla.com
-                    </a>{" "}
-                    <br />
-                    Created using Rails, PostgreSQL, RSpec, Bootstrap,
-                    Twitter/Instagram/Tumblr/Youtube API <br /><br />
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-xs-12 col-md-5 image-container">
-                <a href="http://sportsnewsla.com">
-                  <img src="/images/snla.jpg" />
-                </a>
-              </div>
-            </div>
-
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
-                <div className="description">
-
                   <h4>Sports News Los Angeles</h4>
                   <p>
                     News aggregator that automatically pulls from over 100 feeds
                     containing stories strictly regarding Los Angeles sports
                     teams. Feeds are saved to a PostgreSQL database before being
                     rendered to the user via AngularJS. Users can login with
-                    their
-                    social accounts (Facebook, Twitter, Google LinkedIn). In the
-                    end, users will be able to visit each team's page and view
-                    all
-                    the latest news stories and social feeds (Twitter,
-                    Instagram,
-                    Tumblr, Youtube).
+                    their social accounts (Facebook, Twitter, Google LinkedIn).
+                    In the end, users will be able to visit each team's page and
+                    view all the latest news stories and social feeds (Twitter,
+                    Instagram, Tumblr, Youtube).
                   </p>
                   <p>
                     Source Code:{" "}
@@ -256,8 +266,8 @@ class App extends Component {
                     </a>{" "}
                     <br />
                     Created using Rails, AngularJS, PostgreSQL, Bootstrap,
-                    Twitter
-                    API, Instagram API <br /><br />
+                    Twitter API, Instagram API <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -272,22 +282,18 @@ class App extends Component {
             <div className="row justify-content-md-center project">
               <div className="col-xs-12 col-md-5 col-md-offset-1">
                 <div className="description">
-
                   <h4>Gloss</h4>
                   <p>
                     Content delivery system specifically designed for mobile web
                     browsers. Users can swipe up or down to switch categories
-                    and
-                    left or right to switch between items within the same
+                    and left or right to switch between items within the same
                     category. Users can 'like' items, which are live-updated to
                     all users on the site using Socket.io. Tapping on the screen
                     brings up a radar of nearby users and items. This gamifies
-                    the
-                    app by having users swipe between items to find ones that
-                    contain random prizes once reached. Users can also login to
-                    save favorites, which link directly out to the item's
-                    external
-                    website.
+                    the app by having users swipe between items to find ones
+                    that contain random prizes once reached. Users can also
+                    login to save favorites, which link directly out to the
+                    item's external website.
                   </p>
                   <p>
                     Source Code:{" "}
@@ -318,24 +324,20 @@ class App extends Component {
             <div className="row justify-content-md-center project">
               <div className="col-xs-12 col-md-5 col-md-offset-1">
                 <div className="description">
-
                   <h4>DevJobs.Map</h4>
                   <p>
                     Google Map showing developer job listings in Los Angeles
-                    based
-                    on company's latitude and longitude. Job seekers can filter
-                    job postings based on job type (Front-end, Back-end,
+                    based on company's latitude and longitude. Job seekers can
+                    filter job postings based on job type (Front-end, Back-end,
                     Full-Stack) or experience level (Senior, Junior,
-                    Internship).
-                    Employers can log in (via sign up or using Twitter/LinkedIn
-                    authentication) to post a job that is automatically
-                    displayed
-                    on the map through geocoding of their company address.
-                    Employer also has access to their own dashboard to manage
-                    posted jobs. Indeed.com API can also pulled to populate the
-                    map with even more developer jobs. Heat map can be toggled
-                    to
-                    view locations with the most job postings.
+                    Internship). Employers can log in (via sign up or using
+                    Twitter/LinkedIn authentication) to post a job that is
+                    automatically displayed on the map through geocoding of
+                    their company address. Employer also has access to their own
+                    dashboard to manage posted jobs. Indeed.com API can also
+                    pulled to populate the map with even more developer jobs.
+                    Heat map can be toggled to view locations with the most job
+                    postings.
                   </p>
                   <p>
                     Source Code:{" "}
@@ -368,17 +370,13 @@ class App extends Component {
                   <h4>GymTime</h4>
                   <p>
                     Workout calendar will full CRUD functionality. Allows the
-                    user
-                    to create single workouts which are displayed automatically
-                    on
-                    their own calendar. Exercises can be added to own database
-                    (with external links and ability to embed optional YouTube
-                    video) which will then show as options when future workouts
-                    are created. Training progress can also be tracked by
-                    creating
-                    journal entries. Google Maps API used to map nearby gyms
-                    based
-                    on user's geolocation.
+                    user to create single workouts which are displayed
+                    automatically on their own calendar. Exercises can be added
+                    to own database (with external links and ability to embed
+                    optional YouTube video) which will then show as options when
+                    future workouts are created. Training progress can also be
+                    tracked by creating journal entries. Google Maps API used to
+                    map nearby gyms based on user's geolocation.
                   </p>
                   <p>
                     Source Code:{" "}
@@ -390,7 +388,8 @@ class App extends Component {
                     <a href="http://gym-time.herokuapp.com">
                       http://gym-time.herokuapp.com
                     </a>{" "}
-                    <br /><br />
+                    <br />
+                    <br />
                     Created using Ruby on Rails, HTML, CSS, JQuery, MongoDB.
                   </p>
                 </div>
@@ -402,7 +401,6 @@ class App extends Component {
                 </a>
               </div>
             </div>
-
           </div>
         </div>
 
