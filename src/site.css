@@ -88,7 +88,7 @@ ul {
 }
 
 .project {
-  margin: 30px;
+  margin-bottom: 40px;
 }
 
 .project a {
@@ -99,9 +99,15 @@ ul {
   background-color: rgba(102, 102, 102, .6);
   color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #000;
-  font-size: 12px;
+  box-shadow: 3px 3px 3px #000;
+  font-size: 14px;
   padding: 20px;
+  margin-bottom: 10px;
+}
+
+.description ul {
+  list-style: disc;
+  padding-left: 20px;
 }
 
 .image-container img {

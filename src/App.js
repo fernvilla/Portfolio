@@ -23,7 +23,7 @@ class App extends Component {
             </div>
 
             <div className="row">
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-laptop fa-5x" />
                 <h3>Front-End</h3>
                 <div className="col">
@@ -38,7 +38,7 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-file-code-o fa-5x" />
                 <h3>Back End</h3>
                 <div className="col">
@@ -51,7 +51,7 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-github fa-5x" />
                 <h3>Tools</h3>
                 <div className="col">
@@ -68,7 +68,7 @@ class App extends Component {
             </div>
 
             <div className="row">
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-database fa-5x" />
                 <h3>Databases</h3>
                 <div className="col">
@@ -79,7 +79,7 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-picture-o fa-5x" />
                 <h3>Design</h3>
                 <div className="col">
@@ -90,7 +90,7 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="col-xs-12 col-sm-4 skills-box">
+              <div className="col-12 col-sm-4 skills-box">
                 <i className="fa fa-check-square-o fa-5x" />
                 <h3>Testing</h3>
                 <div className="col">
@@ -113,37 +113,36 @@ class App extends Component {
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>Panjo</h4>
-                  <p />
                   <p>
-                    <br />
-                    Website: <a href="http://panjo.com">
-                      http://panjo.com
-                    </a>{" "}
-                    <br />
-                    .Net MVC, React, Redux, Webpack, SCSS
-                    <br />
-                    <br />
+                    Lead front end devloper for online enthusiast marketplace.
+                  </p>
+                  <p>
+                    <p>
+                      Website: <a href="http://panjo.com">http://panjo.com</a>
+                      <br />
+                      Stack: .Net MVC, React, Redux, Webpack, SCSS
+                    </p>
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://panjo.com">
                   <img src="/images/panjo.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>Sports News Los Angeles 2.0 (In progress)</h4>
                   <p>
-                    Rebuilding previous project As before, will automatically
+                    Rebuild of previous project. As before, will automatically
                     pull from over 150 news feeds, containing stories strictly
                     regarding Los Angeles sports teams, every hour. Feeds are
                     still saved to database before being rendered to the user to
@@ -151,43 +150,41 @@ class App extends Component {
                     Mobile-friendly. This site will be made live to the public.
                   </p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/SportsNewsLA">
                       https://github.com/fernvilla/SportsNewsLA
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://sportsnewsla.com">
                       http://sportsnewsla.com
-                    </a>{" "}
+                    </a>
                     <br />
-                    Created using Node, Express, React, Redux, Mongoose,
-                    React-Router, Bootstrap 4, SCSS
-                    <br />
-                    <br />
+                    Stack: Node, Express, React, Redux, Mongoose, React-Router,
+                    Bootstrap 4, SCSS
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://sportsnewsla.com">
                   <img src="/images/snla.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>Wedding Site</h4>
                   <p>Personal wedding site built with Rails 4.2.</p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/WeddingSite">
                       https://github.com/fernvilla/WeddingSite
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://afwedding.herokuapp.com/">
                       http://afwedding.herokuapp.com/
                     </a>
@@ -195,53 +192,83 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://afwedding.herokuapp.com/">
                   <img src="/images/wedding.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>truBrain</h4>
                   <p>
-                    Maintenance, issue fixing, and enhancements of the
-                    company&#39;s website which is built with Django/Python on
-                    top of a PostgreSQL database.
-                  </p>
-                  <p>
-                    Converted the entire website into a fully responsive site
-                    using Bootstrap 3, along with CSS media queries.
-                  </p>
-                  <p>
-                    Currently designing and developing Brain Training games with
-                    JavaScript, JQuery, AngularJS, HTML and CSS.
-                  </p>
-                  <p>
-                    Lead the front-end development aspect of all page redesigns.
-                    Converted PSDs given by marketing team into HTML/CSS.
-                  </p>
-                  <p>
-                    Currently assisting in converting the entire site to
-                    AngularJS.
+                    Full stack developer, with a heavier focus on front-end
+                    development. Responsible for updates, fixes and improvements
+                    of the site in an effort to help increase product
+                    subscriptions: • Led all front-end page redesigns,
+                    encompassing more than 90% of the website, including key
+                    pages such as the home, product and signup pages.
+                    <ul>
+                      <li>
+                        Keeping an eye on UX, updated site’s primary and
+                        secondary fonts for improved legibility, while also
+                        making the pages visually appealing and more
+                        informative.
+                      </li>
+                      <li>
+                        Keeping an eye on UX, updated site’s primary and
+                        secondary fonts for improved legibility, while also
+                        making the pages visually appealing and more
+                        informative.
+                      </li>
+                      <li>
+                        Utilizing Photoshop, converted PSDs to HTML, as well as
+                        optimized image sizes (pre-compression) for use on the
+                        web.
+                      </li>
+                      <li>
+                        Utilized AngularJS for the subscription signup process,
+                        dynamically adjusting what is shown to the user based on
+                        their product/plan selections, as well the current URL.
+                      </li>
+                      <li>
+                        Converted the entire website to be fully responsive
+                        using Bootstrap 3, along with media queries targeting
+                        smaller devices.
+                      </li>
+                      <li>
+                        Converted the entire site from using CSS to LESS,
+                        keeping better code structure and organization of
+                        stylesheets.
+                      </li>
+                      <li>
+                        Worked with Operations department, improving and fixing
+                        any issues related to the backend (Stripe payments,
+                        Django admin functionality, etc.), along with assisting
+                        backend developer with any pressing issues.
+                      </li>
+                    </ul>
                   </p>
                   <p>
                     Website: <a href="http://trubrain.com">www.trubrain.com</a>
+                    <br />
+                    Stack: Django, Python, AngularJS, JQuery, Bootstrap, LESS,
+                    PostgreSQL, AWS, Heroku, and Git.
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://trubrain.com">
                   <img src="/images/trubrain.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>Sports News Los Angeles</h4>
                   <p>
@@ -255,32 +282,31 @@ class App extends Component {
                     Instagram, Tumblr, Youtube).
                   </p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/SNLAv1.0">
                       https://github.com/fernvilla/SNLAv1.0
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://sportsla.herokuapp.com">
                       http://sportsla.herokuapp.com
-                    </a>{" "}
+                    </a>
                     <br />
-                    Created using Rails, AngularJS, PostgreSQL, Bootstrap,
-                    Twitter API, Instagram API <br />
-                    <br />
+                    Stack: Rails, AngularJS, PostgreSQL, Bootstrap, Twitter API,
+                    Instagram API
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://sportsnewsla.herokuapp.com">
                   <img src="/images/snla2.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>Gloss</h4>
                   <p>
@@ -296,33 +322,33 @@ class App extends Component {
                     item's external website.
                   </p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/Tiles">
                       https://github.com/fernvilla/Tiles
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://cracked.herokuapp.com">
                       http://cracked.herokuapp.com
-                    </a>{" "}
+                    </a>
                     <br />
-                    Created using the MEAN Stack- MongoDB, Express, AngularJS,
-                    Node.js- and Socket.io. <br />
+                    Stack: the MEAN Stack- MongoDB, Express, AngularJS, Node.js-
+                    and Socket.io. <br />
                     Group project with Hai Nguyen, Justin Lalezarian and Kyle
                     Chadha.
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://cracked.herokuapp.com">
                   <img src="/images/gloss.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>DevJobs.Map</h4>
                   <p>
@@ -340,32 +366,32 @@ class App extends Component {
                     postings.
                   </p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/DevJobMappr">
                       https://github.com/fernvilla/DevJobMappr
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://devjobs-map.herokuapp.com">
                       http://devjobs-map.herokuapp.com
-                    </a>{" "}
+                    </a>
                     <br />
-                    Created using Ruby on Rails, Javascript, AJAX, HTML, CSS,
-                    JQuery, Zurb Foundation, Postgresql. <br />
+                    Stack: Ruby on Rails, Javascript, AJAX, HTML, CSS, JQuery,
+                    Zurb Foundation, Postgresql. <br />
                     Group project with Daniel Iwao and Rachel Bailin.
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://devjobs-map.herokuapp.com">
                   <img src="/images/map.jpg" />
                 </a>
               </div>
             </div>
 
-            <div className="row justify-content-md-center project">
-              <div className="col-xs-12 col-md-5 col-md-offset-1">
+            <div className="row justify-content-center project">
+              <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>GymTime</h4>
                   <p>
@@ -379,23 +405,23 @@ class App extends Component {
                     map nearby gyms based on user's geolocation.
                   </p>
                   <p>
-                    Source Code:{" "}
+                    Source Code:
                     <a href="https://github.com/fernvilla/gym_time">
                       https://github.com/fernvilla/gym_time
-                    </a>{" "}
+                    </a>
                     <br />
-                    Website:{" "}
+                    Website:
                     <a href="http://gym-time.herokuapp.com">
                       http://gym-time.herokuapp.com
-                    </a>{" "}
+                    </a>
                     <br />
                     <br />
-                    Created using Ruby on Rails, HTML, CSS, JQuery, MongoDB.
+                    Stack: Ruby on Rails, HTML, CSS, JQuery, MongoDB.
                   </p>
                 </div>
               </div>
 
-              <div className="col-xs-12 col-md-5 image-container">
+              <div className="col-12 col-lg-5 image-container">
                 <a href="http://gym-time.herokuapp.com">
                   <img src="/images/gym.jpg" />
                 </a>
@@ -412,7 +438,7 @@ class App extends Component {
               </div>
             </div>
 
-            <div className="row justify-content-md-center">
+            <div className="row justify-content-center">
               <div className="col-xs-4 col-sm-1 col-sm-offset-3">
                 <a href="http://www.linkedin.com/in/fernandovillasenor">
                   <i className="fa fa-linkedin-square fa-3x" />
