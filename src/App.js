@@ -415,7 +415,6 @@ class App extends Component {
                       http://gym-time.herokuapp.com
                     </a>
                     <br />
-                    <br />
                     Stack: Ruby on Rails, HTML, CSS, JQuery, MongoDB.
                   </p>
                 </div>
