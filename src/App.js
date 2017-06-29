@@ -194,7 +194,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://afwedding.herokuapp.com/">
-                  <img src="/images/wedding.jpg" />
+                  <img src="/images/wedding.jpg" alt="wedding" />
                 </a>
               </div>
             </div>
@@ -262,7 +262,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://trubrain.com">
-                  <img src="/images/trubrain.jpg" />
+                  <img src="/images/trubrain.jpg" alt="trubrain" />
                 </a>
               </div>
             </div>
@@ -300,7 +300,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://sportsnewsla.herokuapp.com">
-                  <img src="/images/snla2.jpg" />
+                  <img src="/images/snla2.jpg" alt="snla2" />
                 </a>
               </div>
             </div>
@@ -342,7 +342,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://cracked.herokuapp.com">
-                  <img src="/images/gloss.jpg" />
+                  <img src="/images/gloss.jpg" alt="gloss" />
                 </a>
               </div>
             </div>
@@ -385,7 +385,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://devjobs-map.herokuapp.com">
-                  <img src="/images/map.jpg" />
+                  <img src="/images/map.jpg" alt="map" />
                 </a>
               </div>
             </div>
@@ -422,7 +422,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://gym-time.herokuapp.com">
-                  <img src="/images/gym.jpg" />
+                  <img src="/images/gym.jpg" alt="gym" />
                 </a>
               </div>
             </div>
