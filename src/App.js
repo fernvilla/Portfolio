@@ -118,13 +118,76 @@ class App extends Component {
                 <div className="description">
                   <h4>Panjo</h4>
                   <p>
-                    Lead front end devloper for online enthusiast marketplace.
+                    Responsible for the entire front-end development and
+                    implementation of features and updates for Panjo.com.
+                  </p>
+                  <p>
+                    Built a fully responsive, cross-browser tested, site-
+                    including the front end for tools to help improve an
+                    enthusiast’s online marketplace experience:
+                    <ul>
+                      <li>
+                        Listings results page that can be filtered- along with a
+                        user feed homepage.
+                      </li>
+                      <li>
+                        Listing detail page with commenting, messaging and the
+                        ability to send offers.
+                      </li>
+                      <li>Checkout page integrated with Braintree. </li>
+                      <li>
+                        Account settings page to mange payments, addresses, tags
+                        followed, and shopify integration.
+                      </li>
+                      <li>
+                        ‘Sell an Item’ page with ability to upload photos and
+                        add tags.
+                      </li>
+                      <li>
+                        Seller/Buyer listings pages to manage current listings,
+                        purchases, etc.
+                      </li>
+                      <li>Responsive HTML user notification emails.</li>
+                    </ul>
+                    <br />
+                    <p>
+                      Worked with Head of Design to ensure all updates and new
+                      designs were developed as close to pixel-perfect as
+                      possible to their original design.
+                    </p>
+                    <p>
+                      Transitioned from CSS to SCSS for improved maintainability
+                      and to develop a global stylesheet that encompassed our
+                      design style guide.
+                    </p>
+                    <p>
+                      Initially developed functionality with Jquery, then
+                      transitioned to ReactJS (with a dash of Redux used).{" "}
+                    </p>
+                    <p>
+                      Used Webpack for build processes. NPM/Yarn to manage
+                      dependencies.
+                    </p>
+                    <p>
+                      Added testing on React components using Mocha, Enzyme and
+                      Chai.
+                    </p>
+                    <p>
+                      Worked with QA engineer to fix and prevent bugs in
+                      features.
+                    </p>
+                    <p>
+                      Worked with CTO on planning new features that integrated
+                      the frontend code to the backend through server-side
+                      rendering or APIs.
+                    </p>
                   </p>
                   <p>
                     <p>
                       Website: <a href="http://panjo.com">http://panjo.com</a>
                       <br />
-                      Stack: .Net MVC, React, Redux, Webpack, SCSS
+                      Stack: .Net MVC, React, Redux, SCSS, Bootstrap 3, jQuery,
+                      Webpack, Bower, Npm, Yarn, Postgres, AWS, Git.
                     </p>
                   </p>
                 </div>
@@ -150,12 +213,12 @@ class App extends Component {
                     Mobile-friendly. This site will be made live to the public.
                   </p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/SportsNewsLA">
                       https://github.com/fernvilla/SportsNewsLA
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://sportsnewsla.com">
                       http://sportsnewsla.com
                     </a>
@@ -179,12 +242,12 @@ class App extends Component {
                   <h4>Wedding Site</h4>
                   <p>Personal wedding site built with Rails 4.2.</p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/WeddingSite">
                       https://github.com/fernvilla/WeddingSite
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://afwedding.herokuapp.com/">
                       http://afwedding.herokuapp.com/
                     </a>
@@ -282,12 +345,12 @@ class App extends Component {
                     Instagram, Tumblr, Youtube).
                   </p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/SNLAv1.0">
                       https://github.com/fernvilla/SNLAv1.0
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://sportsla.herokuapp.com">
                       http://sportsla.herokuapp.com
                     </a>
@@ -322,12 +385,12 @@ class App extends Component {
                     item's external website.
                   </p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/Tiles">
                       https://github.com/fernvilla/Tiles
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://cracked.herokuapp.com">
                       http://cracked.herokuapp.com
                     </a>
@@ -366,12 +429,12 @@ class App extends Component {
                     postings.
                   </p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/DevJobMappr">
                       https://github.com/fernvilla/DevJobMappr
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://devjobs-map.herokuapp.com">
                       http://devjobs-map.herokuapp.com
                     </a>
@@ -405,12 +468,12 @@ class App extends Component {
                     map nearby gyms based on user's geolocation.
                   </p>
                   <p>
-                    Source Code:
+                    Source Code:{" "}
                     <a href="https://github.com/fernvilla/gym_time">
                       https://github.com/fernvilla/gym_time
                     </a>
                     <br />
-                    Website:
+                    Website:{" "}
                     <a href="http://gym-time.herokuapp.com">
                       http://gym-time.herokuapp.com
                     </a>
@@ -443,26 +506,31 @@ class App extends Component {
                   <i className="fa fa-linkedin-square fa-3x" />
                 </a>
               </div>
+
               <div className="col-xs-4 col-sm-1">
                 <a href="http://twitter.com/fernvillasenor">
                   <i className="fa fa-twitter-square fa-3x" />
                 </a>
               </div>
+
               <div className="col-xs-4 col-sm-1">
                 <a href="http://google.com/+fernandovillasenor18">
                   <i className="fa fa-google fa-3x" />
                 </a>
               </div>
+
               <div className="col-xs-4 col-sm-1">
                 <a href="http://github.com/fernvilla">
                   <i className="fa fa-github-alt fa-3x" />
                 </a>
               </div>
+
               <div className="col-xs-4 col-sm-1">
                 <a href="http://www.facebook.com/fernando.villasenor.3532">
                   <i className="fa fa-facebook-square fa-3x" />
                 </a>
               </div>
+
               <div className="col-xs-4 col-sm-1">
                 <a href="mailto:fvilla18@gmail.com">
                   <i className="fa fa-envelope-square fa-3x" />
