@@ -32,7 +32,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled" href="FVDevResume.pdf">
+            <a className="nav-link" href="FernVillaResume.pdf">
               Resume
             </a>
           </li>
