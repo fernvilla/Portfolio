@@ -4,13 +4,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  margin-bottom: -60px;
-}
-
 .fa {
   margin-bottom: 10px;
 }
+
+.navbar {
+  background: transparent;
+  margin-bottom: -60px;
+}
+
 .intro-container {
   background: url(/images/santamonica.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -129,17 +131,23 @@ ul {
 }
 
 @media (max-width: 767px) {
+  .navbar {
+    background-color: #333333;
+  }
+
   #intro-container {
     background: url(/images/santamonica.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
   }
 
   #portfolio {
     background: url(/images/labg.jpg);
     background-size: fit;
     background-position: center;
+    background-attachment: scroll;
   }
 
   #contact {
@@ -147,6 +155,8 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
+    
   }
 
   #skills {
@@ -154,5 +164,6 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
   }
 }

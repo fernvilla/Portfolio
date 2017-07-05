@@ -121,7 +121,7 @@ class App extends Component {
                     Responsible for the entire front-end development and
                     implementation of features and updates for Panjo.com.
                   </p>
-                  <p>
+                  <div>
                     Built a fully responsive, cross-browser tested, site-
                     including the front end for tools to help improve an
                     enthusiast’s online marketplace experience:
@@ -181,21 +181,21 @@ class App extends Component {
                       the frontend code to the backend through server-side
                       rendering or APIs.
                     </p>
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     <p>
                       Website: <a href="http://panjo.com">http://panjo.com</a>
                       <br />
                       Stack: .Net MVC, React, Redux, SCSS, Bootstrap 3, jQuery,
                       Webpack, Bower, Npm, Yarn, Postgres, AWS, Git.
                     </p>
-                  </p>
+                  </div>
                 </div>
               </div>
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://panjo.com">
-                  <img src="/images/panjo.jpg" />
+                  <img src="/images/panjo.jpg" alt="panjo" />
                 </a>
               </div>
             </div>
@@ -231,7 +231,7 @@ class App extends Component {
 
               <div className="col-12 col-lg-5 image-container">
                 <a href="http://sportsnewsla.com">
-                  <img src="/images/snla.jpg" />
+                  <img src="/images/snla.jpg" alt="snla" />
                 </a>
               </div>
             </div>
@@ -266,7 +266,7 @@ class App extends Component {
               <div className="col-12 col-lg-4">
                 <div className="description">
                   <h4>truBrain</h4>
-                  <p>
+                  <div>
                     Full stack developer, with a heavier focus on front-end
                     development. Responsible for updates, fixes and improvements
                     of the site in an effort to help increase product
@@ -313,7 +313,7 @@ class App extends Component {
                         backend developer with any pressing issues.
                       </li>
                     </ul>
-                  </p>
+                  </div>
                   <p>
                     Website: <a href="http://trubrain.com">www.trubrain.com</a>
                     <br />
