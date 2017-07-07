@@ -1,20 +1,26 @@
 import React, { Component } from "react";
-import { Navbar } from "./components";
+import { Navbar } from "./../components";
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
 
-        <div className="intro-container">
-          <div className="intro">
-            <h1>Web Development</h1>
-            <h4>By Fernando Villasenor</h4>
+        <div className="site-wrapper">
+          <div className="container-fluid main">
+            <div className="row align-items-center">
+              <div className="col">
+                <h1 className="site-title">
+                  Front End Web Developer
+                  <span className="blinking-cursor">|</span>
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div id="skills">
+        {/*<div id="skills">
           <div className="container">
             <div className="row">
               <div className="col">
@@ -539,9 +545,8 @@ class App extends Component {
             </div>
           </div>
         </div>
+        */}
       </div>
     );
   }
 }
-
-export default App;
