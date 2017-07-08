@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
@@ -15,20 +15,16 @@ export default function Navbar() {
         <span className="navbar-toggler-icon" />
       </button>
 
-      <NavLink to="/" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         Fernando Villasenor
-      </NavLink>
+      </a>
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <NavLink
-              to="/portfolio"
-              className="nav-link"
-              activeClassName="active"
-            >
+            <a href="#portfolio" className="nav-link" activeClassName="active">
               Portfolio
-            </NavLink>
+            </a>
           </li>
 
           <li className="nav-item">
