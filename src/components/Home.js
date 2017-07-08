@@ -6,7 +6,7 @@ export default class Home extends Component {
       <div>
         <div className="container-fluid main">
           <div className="row align-items-center height-100">
-            <div className="col-7">
+            <div className="col-md-7">
               <div className="site-left-offset">
                 <h1 className="site-title">
                   Front End Web Developer
@@ -33,7 +33,7 @@ export default class Home extends Component {
               </h2>
 
               <div className="row">
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-laptop fa-4x" />
                   <h4>Front-End</h4>
 
@@ -47,7 +47,7 @@ export default class Home extends Component {
                   </ul>
                 </div>
 
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-file-code-o fa-4x" />
                   <h4>Back-End</h4>
 
@@ -61,7 +61,7 @@ export default class Home extends Component {
               </div>
 
               <div className="row">
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-github fa-4x" />
                   <h4>Tools</h4>
 
@@ -75,7 +75,7 @@ export default class Home extends Component {
                   </ul>
                 </div>
 
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-picture-o fa-4x" />
                   <h4>Design</h4>
 
@@ -88,7 +88,7 @@ export default class Home extends Component {
               </div>
 
               <div className="row">
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-database fa-4x" />
                   <h4>Databases</h4>
 
@@ -98,7 +98,7 @@ export default class Home extends Component {
                   </ul>
                 </div>
 
-                <div className="col-6 text-center skills-box">
+                <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-check-square-o fa-4x" />
                   <h4>Testing</h4>
 

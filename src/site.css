@@ -88,3 +88,7 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+@media (max-width: 767px) {
+  .main {
+    height: 100%; } }
