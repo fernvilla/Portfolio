@@ -9,57 +9,120 @@ export default class App extends Component {
 
         <div className="site-wrapper">
           <div className="container-fluid main">
-            <div className="row align-items-center">
+            <div className="row align-items-center height-100">
+              <div className="col-7">
+                <div className="site-left-offset">
+                  <h1 className="site-title">
+                    Front End Web Developer
+                    <span className="blinking-cursor">|</span>
+                  </h1>
+
+                  <div className="row">
+                    <div className="col-10">
+                      <div className="intro">
+                        <p>
+                          Hi, my name is Fernando Villasenor. I'm a web
+                          developer based in Los Angeles CA, w/3+ years
+                          experience and specializing on front end development.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="col">
-                <h1 className="site-title">
-                  Front End Web Developer
-                  <span className="blinking-cursor">|</span>
-                </h1>
+                <h2 className="text-center">
+                  <strong>Skills</strong>
+                </h2>
+
+                <div className="row">
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-laptop fa-4x" />
+                    <h4>Front-End</h4>
+
+                    <ul className="text-left">
+                      <li>Html</li>
+                      <li>Css/Scss/Less</li>
+                      <li>Javascript</li>
+                      <li>JQuery</li>
+                      <li>ReactJS/Redux</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-file-code-o fa-4x" />
+                    <h4>Back-End</h4>
+
+                    <ul className="text-left">
+                      <li>Node/Express</li>
+                      <li>.Net MVC</li>
+                      <li>Ruby on Rails</li>
+                      <li>Django/Python</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-github fa-4x" />
+                    <h4>Tools</h4>
+
+                    <ul className="text-left">
+                      <li>Html</li>
+                      <li>Css/Scss/Less</li>
+                      <li>Javascript</li>
+                      <li>JQuery</li>
+                      <li>ReactJS/Redux</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-picture-o fa-4x" />
+                    <h4>Design</h4>
+
+                    <ul className="text-left">
+                      <li>Adobe Photoshop</li>
+                      <li>Responsive Design</li>
+                      <li>PSD to HTML/CSS</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-database fa-4x" />
+                    <h4>Databases</h4>
+
+                    <ul className="text-left">
+                      <li>MongoDB/Mongoose</li>
+                      <li>PostgreSQL</li>
+                    </ul>
+                  </div>
+
+                  <div className="col-6 text-center skills-box">
+                    <i className="fa fa-check-square-o fa-4x" />
+                    <h4>Testing</h4>
+
+                    <ul className="text-left">
+                      <li>Mocha</li>
+                      <li>Enzyme</li>
+                      <li>Chai</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         {/*<div id="skills">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <h3 id="header">Skills</h3>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-laptop fa-5x" />
-                <h3>Front-End</h3>
-                <div className="col">
-                  <ul>
-                    <li>Html</li>
-                    <li>Css/Scss/Less</li>
-                    <li>Javascript</li>
-                    <li>JQuery</li>
-                    <li>ReactJS/Redux</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
-              </div>
 
               <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-file-code-o fa-5x" />
-                <h3>Back End</h3>
-                <div className="col">
-                  <ul>
-                    <li>Node/Express</li>
-                    <li>.Net MVC</li>
-                    <li>Ruby on Rails</li>
-                    <li>Django/Python</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-github fa-5x" />
-                <h3>Tools</h3>
+                <i className="fa fa-github fa-4x" />
+                <h4>Tools</h4>
                 <div className="col">
                   <ul>
                     <li>Git/Github</li>
@@ -75,8 +138,8 @@ export default class App extends Component {
 
             <div className="row">
               <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-database fa-5x" />
-                <h3>Databases</h3>
+                <i className="fa fa-database fa-4x" />
+                <h4>Databases</h4>
                 <div className="col">
                   <ul>
                     <li>MongoDB</li>
@@ -86,8 +149,8 @@ export default class App extends Component {
               </div>
 
               <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-picture-o fa-5x" />
-                <h3>Design</h3>
+                <i className="fa fa-picture-o fa-4x" />
+                <h4>Design</h4>
                 <div className="col">
                   <ul>
                     <li>Adobe Photoshop</li>
@@ -97,8 +160,8 @@ export default class App extends Component {
               </div>
 
               <div className="col-12 col-sm-4 skills-box">
-                <i className="fa fa-check-square-o fa-5x" />
-                <h3>Testing</h3>
+                <i className="fa fa-check-square-o fa-4x" />
+                <h4>Testing</h4>
                 <div className="col">
                   <ul>
                     <li>Mocha</li>
@@ -115,7 +178,7 @@ export default class App extends Component {
           <div className="container-fluid portfolio-overlay">
             <div className="row">
               <div className="col">
-                <h3 id="header">Portfolio</h3>
+                <h4 id="header">Portfolio</h4>
               </div>
             </div>
 
@@ -502,7 +565,7 @@ export default class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h3 id="header">Let's Connect</h3>
+                <h4 id="header">Let's Connect</h4>
               </div>
             </div>
 
