@@ -46,6 +46,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="linkedin"
             >
               <i className="fa fa-linkedin-square" />
             </a>
@@ -57,6 +58,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="twitter"
             >
               <i className="fa fa-twitter-square" />
             </a>
@@ -68,6 +70,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="google+"
             >
               <i className="fa fa-google" />
             </a>
@@ -79,6 +82,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="github"
             >
               <i className="fa fa-github-alt" />
             </a>
@@ -90,6 +94,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="facebook"
             >
               <i className="fa fa-facebook-square" />
             </a>
@@ -101,6 +106,7 @@ export default function Navbar() {
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"
+              title="email"
             >
               <i className="fa fa-envelope-square" />
             </a>

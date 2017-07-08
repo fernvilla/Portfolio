@@ -30,6 +30,16 @@ export default class Portfolio extends Component {
           <div className="col-md-4">
             <div className="project">
               <img
+                src="/images/bloomtri.jpg"
+                className="img-fluid"
+                alt="bloomtri"
+              />
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="project">
+              <img
                 src="/images/trubrain.jpg"
                 className="img-fluid"
                 alt="trubrain"
