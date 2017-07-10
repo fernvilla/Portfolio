@@ -2,5 +2,6 @@
 {
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.wordWrap": "on",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
 }

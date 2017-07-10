@@ -1,19 +1,11 @@
 import React, { Component } from "react";
+
+import { Project } from "./../components";
 import { projects } from "./../globals/projects";
 
 export default class Portfolio extends Component {
   renderProject(project, i) {
-    return (
-      <div className="col-md-4 project-col" key={i}>
-        <a href={project.url} target="_blank" rel="noopener noreferrer">
-          <div
-            className="project"
-            style={{ backgroundImage: `url(${project.img})` }}
-            title={project.name}
-          />
-        </a>
-      </div>
-    );
+    return <Project project={project} key={i} />
   }
 
   render() {
