@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a href="#portfolio" className="nav-link" activeClassName="active">
+            <a href="#portfolio" className="nav-link">
               Portfolio
             </a>
           </li>
