@@ -9,6 +9,7 @@ body {
 body {
   font-family: 'Source Code Pro', monospace;
   font-size: 14px;
+  background-color: #ececec;
 }
 
 .navbar {
@@ -126,7 +127,6 @@ body {
 .portfolio {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #ececec;
   max-width: 1440px;
 
   .project-col {
