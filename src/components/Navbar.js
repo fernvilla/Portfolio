@@ -28,12 +28,7 @@ export default function Navbar() {
           </li>
 
           <li className="nav-item">
-            <a
-              href="FernVillaResume.pdf"
-              className="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="Resume.pdf" className="nav-link" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
@@ -63,7 +58,7 @@ export default function Navbar() {
               <i className="fa fa-twitter-square" />
             </a>
           </li>
-
+          {/* 
           <li className="nav-item">
             <a
               href="http://google.com/+fernandovillasenor18"
@@ -74,7 +69,7 @@ export default function Navbar() {
             >
               <i className="fa fa-google" />
             </a>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <a
@@ -88,7 +83,7 @@ export default function Navbar() {
             </a>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               href="http://www.facebook.com/fernando.villasenor.3532"
               className="nav-link"
@@ -98,7 +93,7 @@ export default function Navbar() {
             >
               <i className="fa fa-facebook-square" />
             </a>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <a

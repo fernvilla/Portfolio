@@ -17,9 +17,8 @@ export default class Home extends Component {
                   <div className="col-10">
                     <div className="intro">
                       <p>
-                        Hi, my name is Fernando Villasenor. I'm a web developer
-                        based in Los Angeles CA, w/3+ years experience and
-                        specializing on front end development.
+                        Hi, my name is Fernando Villasenor. I'm a web developer based in Los Angeles
+                        CA, w/6+ years experience and specializing on front end development.
                       </p>
                     </div>
                   </div>
@@ -53,7 +52,7 @@ export default class Home extends Component {
 
                   <ul className="text-left">
                     <li>Node/Express</li>
-                    <li>.Net MVC</li>
+                    <li>.Net</li>
                     <li>Ruby on Rails</li>
                     <li>Django/Python</li>
                   </ul>
@@ -95,6 +94,7 @@ export default class Home extends Component {
                   <ul className="text-left">
                     <li>MongoDB/Mongoose</li>
                     <li>PostgreSQL</li>
+                    <li>Microsoft SQL Server</li>
                   </ul>
                 </div>
 

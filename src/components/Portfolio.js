@@ -5,7 +5,7 @@ import { projects } from "./../globals/projects";
 
 export default class Portfolio extends Component {
   renderProject(project, i) {
-    return <Project project={project} key={i} />
+    return <Project project={project} key={i} />;
   }
 
   render() {
@@ -17,9 +17,7 @@ export default class Portfolio extends Component {
           </div>
         </div>
 
-        <div className="row">
-          {projects.map((project, i) => this.renderProject(project, i))}
-        </div>
+        <div className="row">{projects.map((project, i) => this.renderProject(project, i))}</div>
       </div>
     );
   }
