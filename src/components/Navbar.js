@@ -1,10 +1,14 @@
-import React from "react";
+import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a className="navbar-brand" href="#">
+        Fernando Villasenor
+      </a>
       <button
-        className="navbar-toggler navbar-toggler-right"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -12,23 +16,19 @@ export default function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon"></span>
       </button>
-
-      <a href="/" className="navbar-brand">
-        Fernando Villasenor
-      </a>
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <a href="#portfolio" className="nav-link">
+          <li className="nav-item ">
+            <AnchorLink href="#portfolio" className="nav-link">
               Portfolio
-            </a>
+            </AnchorLink>
           </li>
 
           <li className="nav-item">
-            <a href="Resume.pdf" className="nav-link" target="_blank" rel="noopener noreferrer">
+            <a className="nav-link" href="Fernando_Villasenor_Resume.pdf">
               Resume
             </a>
           </li>
@@ -58,18 +58,6 @@ export default function Navbar() {
               <i className="fa fa-twitter-square" />
             </a>
           </li>
-          {/* 
-          <li className="nav-item">
-            <a
-              href="http://google.com/+fernandovillasenor18"
-              className="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="google+"
-            >
-              <i className="fa fa-google" />
-            </a>
-          </li> */}
 
           <li className="nav-item">
             <a
@@ -82,18 +70,6 @@ export default function Navbar() {
               <i className="fa fa-github-alt" />
             </a>
           </li>
-
-          {/* <li className="nav-item">
-            <a
-              href="http://www.facebook.com/fernando.villasenor.3532"
-              className="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="facebook"
-            >
-              <i className="fa fa-facebook-square" />
-            </a>
-          </li> */}
 
           <li className="nav-item">
             <a
