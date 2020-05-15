@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: 'Fintel',
+    img: '/images/fintel.jpg',
+    url: 'http://fintel.io',
+    details: 'Front End Developer (Contract)'
+  },
+  {
     name: 'Tix',
     img: '/images/tix.jpg',
     url: 'http://tix.com',
