@@ -9,8 +9,7 @@
     "node-sass-chokidar": "^1.5.0",
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^16.13.1",
-    "react-snap": "^1.23.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "npm-check-updates": "^7.0.1",
@@ -24,8 +23,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "yarn run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "postbuild": "react-snap"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
