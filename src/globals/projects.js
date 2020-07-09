@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: 'The Mind Desinger',
+    img: '/images/mind-designer.jpg',
+    url: 'https://www.theminddesigner.com/',
+    details: 'Front End Developer (Contract)'
+  },
+  {
     name: 'Fintel',
     img: '/images/fintel.jpg',
     url: 'http://fintel.io',
