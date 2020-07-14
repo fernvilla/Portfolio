@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Project({ project }) {
+const Project = ({ project }) => {
   return (
     <div className="col-sm-6 col-lg-4 project-col">
       <a href={project.url} target="_blank" rel="noopener noreferrer">
@@ -17,4 +17,6 @@ export default function Project({ project }) {
       </a>
     </div>
   );
-}
+};
+
+export default Project;
