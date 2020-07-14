@@ -5,47 +5,54 @@ export default class Home extends Component {
     return (
       <div>
         <div className="container-fluid main">
-          <div className="row align-items-center height-100">
+          <div className="row  height-100">
             <div className="col-md-7">
               <div className="site-left-offset">
                 <h1 className="site-title">
-                  Front End Web Developer
+                  Sr. Frontend Engineer
                   <span className="blinking-cursor">|</span>
                 </h1>
 
                 <div className="row">
                   <div className="col-10">
-                    <div className="intro">
-                      <p>
-                        Hi, my name is Fernando Villasenor. I'm a web developer based in Los Angeles CA, w/6+ years
-                        experience and specializing on front end development.
-                      </p>
-                    </div>
+                    <h2 className="intro">
+                      Hi, my name is Fernando Villasenor. I'm a senior frontend engineer based in Los Angeles CA, w/6+
+                      years experience and specializing on front end development.
+                    </h2>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="col">
-              <h2 className="text-center">
+              <h2 className="text-center mb-4">
                 <strong>Skills</strong>
               </h2>
 
               <div className="row">
-                <div className="col-md-6 text-center skills-box">
+                <div className="col-md-12 text-center skills-box">
                   <i className="fa fa-laptop fa-4x" />
                   <h4>Front-End</h4>
 
-                  <ul className="text-left">
-                    <li>HTML</li>
-                    <li>CSS/SCSS/LESS/CSS Modules</li>
-                    <li>Javascript</li>
-                    <li>jQuery</li>
-                    <li>React/Redux</li>
-                    <li>Angular</li>
-                    <li>Bootstrap, Semantic UI, TailwindCSS</li>
-                    <li>Next.js</li>
-                  </ul>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <ul className="text-left">
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>jQuery</li>
+                        <li>React/Redux</li>
+                      </ul>
+                    </div>
+
+                    <div className="col-md-6">
+                      <ul className="text-left">
+                        <li>Bootstrap, Semantic UI</li>
+                        <li>SCSS/LESS</li>
+                        <li>CSS Modules</li>
+                        <li>Styled Components</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="col-md-6 text-center skills-box">
@@ -56,22 +63,17 @@ export default class Home extends Component {
                     <li>Node/Express</li>
                     <li>.Net</li>
                     <li>Ruby on Rails</li>
-                    <li>Django/Python</li>
                   </ul>
                 </div>
-              </div>
 
-              <div className="row">
                 <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-github fa-4x" />
                   <h4>Tools</h4>
 
                   <ul className="text-left">
                     <li>Git/Github</li>
-                    <li>Webpack</li>
-                    <li>NPM/Yarn</li>
+                    <li>Webpack/NPM/Yarn/GUlp</li>
                     <li>Heroku</li>
-                    <li>Pivotal Tracker</li>
                     <li>Jira</li>
                   </ul>
                 </div>
@@ -86,15 +88,12 @@ export default class Home extends Component {
                     <li>PSD to HTML/CSS</li>
                   </ul>
                 </div>
-              </div>
 
-              <div className="row">
                 <div className="col-md-6 text-center skills-box">
                   <i className="fa fa-database fa-4x" />
                   <h4>Databases</h4>
 
                   <ul className="text-left">
-                    <li>MongoDB/Mongoose</li>
                     <li>PostgreSQL</li>
                     <li>Microsoft SQL Server</li>
                   </ul>
