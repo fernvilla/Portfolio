@@ -53,35 +53,35 @@ export const projects = [
     img: '/images/trubrain.jpg',
     url: 'http://trubrain.com',
     details: 'Front End Developer(5/2014 - 4/2015)'
-  },
-  {
-    name: 'Personal Wedding Site',
-    img: '/images/wedding.jpg',
-    url: 'http://afwedding.herokuapp.com',
-    details: 'Personal Side Project (2015)'
-  },
-  {
-    name: 'Sports News L.A. v1',
-    img: '/images/snla2.jpg',
-    url: 'http://snla.herokuapp.com',
-    details: 'School Project (2014)'
-  },
-  {
-    name: 'Gloss',
-    img: '/images/gloss.jpg',
-    url: 'http://cracked.herokuapp.com',
-    details: 'School Project (2014)'
-  },
-  {
-    name: 'DevJobs.Map',
-    img: '/images/map.jpg',
-    url: 'http://devjobs-map.herokuapp.com/',
-    details: 'School Project (2014)'
-  },
-  {
-    name: 'GymTime',
-    img: '/images/gym.jpg',
-    url: 'http://gym-time.herokuapp.com',
-    details: 'School Project (2014)'
   }
+//   {
+//     name: 'Personal Wedding Site',
+//     img: '/images/wedding.jpg',
+//     url: 'http://afwedding.herokuapp.com',
+//     details: 'Personal Side Project (2015)'
+//   },
+//   {
+//     name: 'Sports News L.A. v1',
+//     img: '/images/snla2.jpg',
+//     url: 'http://snla.herokuapp.com',
+//     details: 'School Project (2014)'
+//   },
+//   {
+//     name: 'Gloss',
+//     img: '/images/gloss.jpg',
+//     url: 'http://cracked.herokuapp.com',
+//     details: 'School Project (2014)'
+//   },
+//   {
+//     name: 'DevJobs.Map',
+//     img: '/images/map.jpg',
+//     url: 'http://devjobs-map.herokuapp.com/',
+//     details: 'School Project (2014)'
+//   },
+//   {
+//     name: 'GymTime',
+//     img: '/images/gym.jpg',
+//     url: 'http://gym-time.herokuapp.com',
+//     details: 'School Project (2014)'
+//   }
 ];
