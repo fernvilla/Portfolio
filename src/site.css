@@ -70,7 +70,7 @@ body {
   padding-bottom: 40px;
   max-width: 1440px; }
   .portfolio .project-col {
-    margin: 15px auto; }
+    margin: 15px 0; }
   .portfolio .project {
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
     background-size: cover;

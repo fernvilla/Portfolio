@@ -1,5 +1,17 @@
 export const projects = [
   {
+    name: 'MyLife',
+    img: '/images/mylife.jpg',
+    url: 'https://www.mylife.com/',
+    details: 'Sr. Front End Engineer (7/2020 - present)'
+  },
+  {
+    name: 'Sports Hub Los Angeles',
+    img: '/images/sportshubla.jpg',
+    url: 'http://sportshub.la',
+    details: 'Founder/Developer (6/2020 - present)'
+  },
+  {
     name: 'The Mind Desinger',
     img: '/images/mind-designer.jpg',
     url: 'https://www.theminddesigner.com/',
@@ -15,14 +27,9 @@ export const projects = [
     name: 'Tix',
     img: '/images/tix.jpg',
     url: 'http://tix.com',
-    details: 'Software Engineer (7/2017 - present)'
+    details: 'Software Engineer (7/2017 - 7/2020)'
   },
-  {
-    name: 'Sports Nucleus',
-    img: '/images/sports-nucleus.jpg',
-    url: 'http://sportsnucleus.io',
-    details: 'Founder/Developer (4/2020 - present)'
-  },
+
   {
     name: 'Community Capital Technology',
     img: '/images/cct.jpg',
