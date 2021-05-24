@@ -1,0 +1,61 @@
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.blinking-cursor {
+  line-height: 0.75em;
+  font-weight: 500;
+  vertical-align: top;
+  color: #ececec;
+  -webkit-animation: 500ms blink 500ms ease infinite alternate;
+  -moz-animation: 500ms blink 500ms ease infinite alternate;
+  -ms-animation: 500ms blink 500ms ease infinite alternate;
+  -o-animation: 500ms blink 500ms ease infinite alternate;
+  animation: 500ms blink 500ms ease infinite alternate;
+}
