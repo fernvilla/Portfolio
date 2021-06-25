@@ -56,7 +56,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          href="mailto:fernandov@hey.com"
+          href="mailto:fvilla18@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           title="email"
