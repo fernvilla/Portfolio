@@ -30,7 +30,7 @@ import {
 } from 'react-icons/si';
 
 const Tag = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-blue-500 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
+  <div className="bg-cyan-600 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
     {children}
   </div>
 );
