@@ -30,7 +30,7 @@ import {
 } from 'react-icons/si';
 
 const Tag = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-cyan-600 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
+  <div className="bg-blue-500 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
     {children}
   </div>
 );
@@ -52,20 +52,20 @@ export default function Home() {
             React, Javascript and TypeScript - amongst the many other tools I&#39;ve used over the years.
           </div>
 
-          <Link href="/resume.pdf" className="mt-10 block text-cyan-300">
+          <Link href="/resume.pdf" className="mt-10 block text-cyan-300" aria-label="Download my resume file">
             Download Resume
           </Link>
 
           <div className="mt-10 md:mt-20 flex items-center flex-wrap gap-4">
-            <Link href="https://github.com/fernvilla">
+            <Link href="https://github.com/fernvilla" aria-label="Visit github profile">
               <SiGithub size={24} className="opacity-70" />
             </Link>
 
-            <Link href="https://www.linkedin.com/in/fernandovillasenor/">
+            <Link href="https://www.linkedin.com/in/fernandovillasenor/" aria-label="Visit linkedin profile">
               <SiLinkedin size={24} className="opacity-70" />
             </Link>
 
-            <Link href="mailto:fvilla18@gmail.com">
+            <Link href="mailto:fvilla18@gmail.com" aria-label="Contact me via gmail">
               <SiGmail size={24} className="opacity-70" />
             </Link>
           </div>
