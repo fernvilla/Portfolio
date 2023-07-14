@@ -16,7 +16,6 @@ import {
   SiNestjs,
   SiNextdotjs,
   SiPhp,
-  SiR,
   SiReact,
   SiReacthookform,
   SiReactquery,
@@ -50,6 +49,10 @@ export default function Home() {
             Los Angeles based software engineer w/9+ years experience in building complex UIs. I&#39;m a big fan of
             React, Javascript and TypeScript - amongst the many other tools I&#39;ve used over the years.
           </div>
+
+          <Link href="/resume.pdf" className="mt-10 block text-cyan-300">
+            Download Resume
+          </Link>
 
           <div className="mt-10 md:mt-20 flex items-center flex-wrap gap-4">
             <Link href="https://github.com/fernvilla">
@@ -154,7 +157,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         {/* Item */}
         <div className="flex items-start gap-10 mb-10">
           <div className="uppercase text-xs flex-none">Jul 2021 - Dec 2022</div>
@@ -206,7 +208,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         {/* Item */}
         <div className="flex items-start gap-10 mb-10">
           <div className="uppercase text-xs flex-none">Jul 2020 - Jul 2021</div>
@@ -247,7 +248,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         {/* Item */}
         <div className="flex items-start gap-10 mb-10">
           <div className="uppercase text-xs flex-none">Aug 2017 - Jul 2020</div>
@@ -312,7 +312,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         {/* Item */}
         <div className="flex items-start gap-10 mb-10">
           <div className="uppercase text-xs flex-none">Jan 2015 - Jul 2017</div>
@@ -369,7 +368,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         {/* Item */}
         <div className="flex items-start gap-10 mb-10">
           <div className="uppercase text-xs flex-none">May 2014 - Dec 2014</div>
