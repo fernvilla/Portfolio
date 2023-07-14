@@ -74,10 +74,10 @@ export default function Home() {
 
       <div className="flex-1">
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">Jan 2023 - present</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jan 2023 - present</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Senior Software Engineer, Front End</h2>
             <div className="text-gray-300 text-sm">GMSE Corp/Sponsorship Exchange</div>
 
@@ -160,10 +160,10 @@ export default function Home() {
           </div>
         </div>
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">Jul 2021 - Dec 2022</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jul 2021 - Dec 2022</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Senior Software Engineer, Front End</h2>
             <div className="text-gray-300 text-sm">Tradesy/Vestiaire Collective</div>
 
@@ -211,10 +211,10 @@ export default function Home() {
           </div>
         </div>
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">Jul 2020 - Jul 2021</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jul 2020 - Jul 2021</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Senior Frontend Engineer</h2>
             <div className="text-gray-300 text-sm">MyLife</div>
 
@@ -251,10 +251,10 @@ export default function Home() {
           </div>
         </div>
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">Aug 2017 - Jul 2020</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Aug 2017 - Jul 2020</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Software Engineer</h2>
             <div className="text-gray-300 text-sm">Tix</div>
 
@@ -315,10 +315,10 @@ export default function Home() {
           </div>
         </div>
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">Jan 2015 - Jul 2017</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jan 2015 - Jul 2017</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Frontend Developer</h2>
             <div className="text-gray-300 text-sm">Panjo</div>
 
@@ -371,10 +371,10 @@ export default function Home() {
           </div>
         </div>
         {/* Item */}
-        <div className="flex items-start gap-10 mb-10">
-          <div className="uppercase text-xs flex-none">May 2014 - Dec 2014</div>
+        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
+          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">May 2014 - Dec 2014</div>
 
-          <div className="-mt-1 flex-auto">
+          <div className="-mt-1 flex-1">
             <h2 className="font-semibold">Frontend Developer</h2>
             <div className="text-gray-300 text-sm">truBrain</div>
 
