@@ -30,7 +30,9 @@ import {
 } from 'react-icons/si';
 
 const Tag = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-cyan-600 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1">{children}</div>
+  <div className="bg-cyan-600 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
+    {children}
+  </div>
 );
 
 export default function Home() {
