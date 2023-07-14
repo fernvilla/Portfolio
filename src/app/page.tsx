@@ -40,7 +40,7 @@ export default function Home() {
     <main className="flex flex-wrap max-w-screen-xl mx-auto px-5 md:px-10 py-10 md:py-20 text-white gap-20 relative">
       <div className="flex-auto lg:flex-[0_1_400px]">
         <div className="sticky top-20">
-          <h1 className="text-5xl font-bold mb-2">Fernando Villasenor</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-2">Fernando Villasenor</h1>
 
           <div className="text-lg flex items-center mb-5">
             <span className="pr-1">Senior Software Engineer, Frontend</span>
