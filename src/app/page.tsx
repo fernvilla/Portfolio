@@ -1,3 +1,5 @@
+import Tag from '@/components/Tag';
+import experience from '@/data/experience';
 import Link from 'next/link';
 import {
   SiAngularjs,
@@ -12,6 +14,7 @@ import {
   SiJquery,
   SiLess,
   SiLinkedin,
+  SiMicrosoftsqlserver,
   SiMobx,
   SiNestjs,
   SiNextdotjs,
@@ -29,11 +32,62 @@ import {
   SiWebpack
 } from 'react-icons/si';
 
-const Tag = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-cyan-600 text-white text-xs rounded-full px-3 py-2 flex items-center gap-1 shadow-lg">
-    {children}
-  </div>
-);
+const mapIcon = (name: string) => {
+  switch (name) {
+    case 'react':
+      return <SiReact className="inline-block" />;
+    case 'typescript':
+      return <SiTypescript className="inline-block" />;
+    case 'javascript':
+      return <SiJavascript className="inline-block" />;
+    case 'jquery':
+      return <SiJquery className="inline-block" />;
+    case 'sass':
+      return <SiSass className="inline-block" />;
+    case 'bootstrap':
+      return <SiBootstrap className="inline-block" />;
+    case 'less':
+      return <SiLess className="inline-block" />;
+    case 'css-modules':
+      return <SiCssmodules className="inline-block" />;
+    case 'redux':
+      return <SiRedux className="inline-block" />;
+    case 'mobx':
+      return <SiMobx className="inline-block" />;
+    case 'webpack':
+      return <SiWebpack className="inline-block" />;
+    case 'angular':
+      return <SiAngularjs className="inline-block" />;
+    case 'django':
+      return <SiDjango className="inline-block" />;
+    case 'php':
+      return <SiPhp className="inline-block" />;
+    case '.net':
+      return <SiDotnet className="inline-block" />;
+    case 'semantic-ui':
+      return <SiSemanticuireact className="inline-block" />;
+    case 'react-query':
+      return <SiReactquery className="inline-block" />;
+    case 'react-table':
+      return <SiReacttable className="inline-block" />;
+    case 'react-hook-form':
+      return <SiReacthookform className="inline-block" />;
+    case 'tailwind':
+      return <SiTailwindcss className="inline-block" />;
+    case 'nextjs':
+      return <SiNextdotjs className="inline-block" />;
+    case 'vercel':
+      return <SiVercel className="inline-block" />;
+    case 'nestjs':
+      return <SiNestjs className="inline-block" />;
+    case 'csharp':
+      return <SiCsharp className="inline-block" />;
+    case 'microsoft-sql-server':
+      return <SiMicrosoftsqlserver className="inline-block" />;
+    default:
+      return null;
+  }
+};
 
 export default function Home() {
   return (
@@ -74,348 +128,34 @@ export default function Home() {
       </div>
 
       <div className="flex-1">
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jan 2023 - present</div>
+        {experience.map(item => (
+          <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap" key={item.company}>
+            <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">{item.datesWorked}</div>
 
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Senior Software Engineer, Front End</h2>
-            <div className="text-gray-300 text-sm">GMSE Corp/Sponsorship Exchange</div>
+            <div className="-mt-1 flex-1">
+              <h2 className="font-semibold">{item.title}</h2>
+              <div className="text-gray-300 text-sm">{item.company}</div>
 
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>
-                    Built the entire ui platform from scratch using Next.js/React - making every required technical and
-                    architectural decision (including library/framework choices, deployment, testing, and best practices
-                    - linting, formatting, folder structure) along the way{' '}
-                  </li>
-                  <li>Built an entire collection of reusable UI React components from scratch w/Tailwind CSS</li>
-                  <li>
-                    Built multiple programs for our multi-tenant sponsorship matching application- including dashboards,
-                    profile pages, sponsorship offer/proposals, ‘sponsorship builder’ dynamic form, file uploading and
-                    markdown editing.
-                  </li>
-                  <li>
-                    Built admin dashboard w/staff functionality, using Next.js middleware for server-side route
-                    protection.
-                  </li>
-                  <li>
-                    Setup custom authentication using Auth0 via NextJS api routing- implementing jwt access/refresh
-                    token via browser cookies and Axios interceptors.
-                  </li>
-                  <li>
-                    Worked on the backend as needed, developing a file upload tool to AWS S3, using Nest.js backend
-                    framework
-                  </li>
-                  <li>
-                    Worked closely w/VP of Engineering on any company-wide decision making - including the interviewing
-                    and hiring of new engineers
-                  </li>
-                  <li>Setup Hubspot for static pages.</li>
-                </ul>
-              </div>
+              <div className="mt-5">
+                <div className="text-gray-100 text-sm">
+                  <ul className="list-disc pl-3">
+                    {item.expList.map((exp, i) => (
+                      <li key={i}>{exp}</li>
+                    ))}
+                  </ul>
+                </div>
 
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  React <SiReact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Typescript <SiTypescript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Next.js <SiNextdotjs className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Tailwind CSS <SiTailwindcss className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  React Query <SiReactquery className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Nest.js <SiNestjs className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  React Hook Form <SiReacthookform className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  React Table <SiReacttable className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Vercel <SiVercel className="inline-block" />
-                </Tag>
+                <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
+                  {item.libraryList.map(lib => (
+                    <Tag key={lib} className="capitalize">
+                      {lib.replace(/-/g, ' ')} {mapIcon(lib)}
+                    </Tag>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jul 2021 - Dec 2022</div>
-
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Senior Software Engineer, Front End</h2>
-            <div className="text-gray-300 text-sm">Tradesy/Vestiaire Collective</div>
-
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>
-                    Worked on a multitude of teams, building out new features, while modernizing legacy pages to React
-                  </li>
-                  <li>Rewrote the entire frontend UI for our item recommendations tool</li>
-                  <li>
-                    Assisted Principal Engineer in large scale architectural change from client-side rendering of React
-                    pages to SSR (served from PHP backend)
-                  </li>
-                  <li>Successfully helped migrate users from the Tradesy to Vestiaire Collective platform</li>
-                </ul>
-              </div>
-
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  React <SiReact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Typescript <SiTypescript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  SASS <SiSass className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Mobx <SiMobx className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  PHP <SiPhp className="inline-block" />
-                </Tag>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jul 2020 - Jul 2021</div>
-
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Senior Frontend Engineer</h2>
-            <div className="text-gray-300 text-sm">MyLife</div>
-
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>
-                    Responsible for the frontend development of the RealMe platform (a B2B product for consumer online
-                    safety)
-                  </li>
-                  <li>Built custom widgets for partners to integrate w/our API, along w/custom landing pages</li>
-                  <li>Rebuilt profile search flow w/React and added testing</li>
-                </ul>
-              </div>
-
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  React <SiReact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Webpack <SiWebpack className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  SASS <SiSass className="inline-block" />
-                </Tag>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Aug 2017 - Jul 2020</div>
-
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Software Engineer</h2>
-            <div className="text-gray-300 text-sm">Tix</div>
-
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>
-                    Responsible for all frontend development - focusing on updating over 30+ legacy programs and data
-                    reports from ASP.net to React w/Redux
-                  </li>
-                  <li>
-                    Developed new UI programs such as email notification management, e-ticket management, as well as new
-                    data reporting w/search criteria and data-grid functionality (exporting/emailing data & pdf
-                    generation)
-                  </li>
-                  <li>Built charts, timelines and sales comparison tools using Chart.js</li>
-                  <li>
-                    Built API endpoints using C#/.Net w/Sql (MS SQL server) to integrate w/updated UI programs as needed
-                  </li>
-                  <li>Created mobile friendly E-tickets with customizable images</li>
-                </ul>
-              </div>
-
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  React <SiReact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Webpack <SiWebpack className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Redux <SiRedux className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  CSS Modules <SiCssmodules className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Semantic UI <SiSemanticuireact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  C# <SiCsharp className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  .Net <SiDotnet className="inline-block" />
-                </Tag>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">Jan 2015 - Jul 2017</div>
-
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Frontend Developer</h2>
-            <div className="text-gray-300 text-sm">Panjo</div>
-
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>
-                    Responsible for the entire frontend development of the marketplace- implementing all core features,
-                    redesigns and updates
-                  </li>
-                  <li>
-                    Introduced React/Redux (along w/testing) within user listing-management pages to begin transition
-                    from jQuery
-                  </li>
-                  <li>Created all responsive html emails for use w/user notifications & marketing</li>
-                  <li>Integrated checkout form w/Braintree Javascript SDK</li>
-                </ul>
-              </div>
-
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  jQuery <SiJquery className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  React <SiReact className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  SASS <SiSass className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Webpack <SiWebpack className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Redux <SiRedux className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  .Net <SiDotnet className="inline-block" />
-                </Tag>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Item */}
-        <div className="flex items-start gap-x-10 gap-y-2 mb-10 flex-wrap">
-          <div className="uppercase text-xs flex-[1_1_100%] md:flex-none">May 2014 - Dec 2014</div>
-
-          <div className="-mt-1 flex-1">
-            <h2 className="font-semibold">Frontend Developer</h2>
-            <div className="text-gray-300 text-sm">truBrain</div>
-
-            <div className="mt-5">
-              <div className="text-gray-100 text-sm">
-                <ul className="list-disc pl-3">
-                  <li>Led all frontend page redesigns- encompassing more than 90% of the website</li>
-                  <li>Instituted the use of Angular to rebuild the subscription signup/checkout processes</li>
-                  <li>Converted the entire site to be fully responsive and mobile friendly</li>
-                </ul>
-              </div>
-
-              <div className="flex flex-wrap mt-5 gap-x-4 gap-y-3">
-                <Tag>
-                  jQuery <SiJquery className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Javascript <SiJavascript className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Angular <SiAngularjs className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Bootstrap <SiBootstrap className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  LESS <SiLess className="inline-block" />
-                </Tag>
-
-                <Tag>
-                  Django <SiDjango className="inline-block" />
-                </Tag>
-              </div>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </main>
   );
