@@ -48,8 +48,9 @@ export default function Home() {
           </div>
 
           <div className="text-gray-300">
-            Los Angeles based software engineer w/9+ years experience in building complex UIs. I&#39;m a big fan of
-            React, Javascript and TypeScript - amongst the many other tools I&#39;ve used over the years.
+            Los Angeles based software engineer w/{new Date().getFullYear() - new Date('1/1/2014').getFullYear()}+ years
+            experience in building complex UIs. I&#39;m a big fan of React, Javascript and TypeScript - amongst the many
+            other tools I&#39;ve used over the years.
           </div>
 
           <Link href="/resume.pdf" className="mt-10 block text-cyan-300" aria-label="Download my resume file">
